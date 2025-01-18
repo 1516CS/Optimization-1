@@ -1,0 +1,26 @@
+Results
+
+Optimal Production Plan (Using Excel Solver):
+
+	Rocket Engines/Week: 52.5
+	Profit/Week: $11,025
+	Resource Allocation:
+Machine 1:
+	Part A: 21 units (63 hours)
+	Part C: 210 units (105 hours)
+Machine 2:
+	Part A: 31.5 units (63 hours)
+	Part B: 105 units (105 hours)
+Total Parts/Week:
+	Part A: 52.5 units
+	Part B: 105 units
+	Part C: 210 units
+
+
+Key Insights:
+
+Machines must operate fully for 336 hours/week to produce the required parts for 52.5 engines.
+Rocket engines sell for $300/unit, covering a weekly production cost of $4,725 and achieving maximum profit.
+
+Conclusion
+The optimized production schedule achieves maximum weekly profit by producing 52.5 rocket engines (105 engines fortnightly). This plan ensures efficient machine utilization and resource allocation: Machine 1 focuses on parts A and C, while Machine 2 focuses on parts A and B. Proper maintenance and uninterrupted operations are critical for sustaining this balance, as even minor disruptions can affect the delicate alignment of resources and production costs. Implementing this plan guarantees profitability and aligns with the company's goals.

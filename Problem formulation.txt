@@ -1,0 +1,23 @@
+Cost per engine => $20*1 + $15*2 + $10*4 = $90
+Profit per engine => $300 -$90 = $210
+Operating hours for a machine per week => 24*7 = 168
+
+Decision variables:
+	E = Number of engines	
+	X1 = Number of A parts from Machine 1 per week			
+	X2 = Number of B parts from Machine 1 per week			
+	X3 = Number of C parts from Machine 1 per week			
+	Y1 = Number of A parts from Machine 2 per week			
+	Y2 = Number of B parts from Machine 2 per week			
+	Y3 = Number of C parts from Machine 2 per week	
+		
+Objective: Maximize the profit  
+Objective function:  Profit = 210E
+
+Business constrains:
+	Hours of Machine 1: 3X1 +2 X2 + 0.5X3 <= 168
+	Hours of Machine 2: 2Y1 + Y2 + Y3 <= 168
+	Number of A parts: X1 + Y1 = E
+	Number of B parts: X2 + Y2 = 2E
+	Number of C parts: X3 + Y3 = 4E
+	Non-negativity: X1, X2, X3, Y1, Y2, Y3, E >= 0
